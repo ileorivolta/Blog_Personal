@@ -94,7 +94,7 @@ nav .profile-link a {
     padding: 5px;
 }
 
-main {
+.main {
     position: relative;
     background-image: url("/assets/img/Cover.png");
     background-size: cover;
