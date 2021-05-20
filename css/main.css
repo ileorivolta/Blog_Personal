@@ -185,8 +185,10 @@ nav .profile-link a {
 
 .blogs-posts-container h3 {
     border-bottom: 1px solid #d8e3e7;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
     text-align: center;
+    font-size: 2rem;
 }
 
 .blogs-buttom {
@@ -226,3 +228,33 @@ footer p {
     color: white;
     margin-top: 15px;
 }
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.blogpost-img-container img {
+    width: 980px;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 30px;
+    font-size: 2rem;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #d8e3e7;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.blogpost-main-container article h1 {
+    padding: 15px 0 0;
+}
+
+.blogpost-main-container .grid-container article p {
+    padding-top: 20px;
+}
+
