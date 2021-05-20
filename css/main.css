@@ -9,7 +9,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
+.home-body {
     position: fixed; /*No queremos que exista un scroll para esta pantalla*/
     top: 0;
     right: 0;
@@ -62,7 +62,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     height: 90px;
     font-size: 1.6rem;
-    background: #d8e3e7;
+    background: white;
 }
 
 nav .nav-logo-container {
@@ -127,4 +127,65 @@ nav .profile-link a {
     color: black;
     padding: 10px;
     background: #51c4d3;
+}
+
+/*Estilos para blogs*/
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #d8e3e7;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-main-new h3 {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.blogs-news-img-container {
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+    width: 80%;
+}
+
+.blogs-news-info-container {
+     grid-column: 2;
+     font-size: 1.6rem;
+}
+
+.blogs-news-info-container h2 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #d8e3e7;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-buttom {
+    border: 1px solid black;
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    background-color: #51c4d3;
 }
