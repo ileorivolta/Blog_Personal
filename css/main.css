@@ -175,6 +175,7 @@ nav .profile-link a {
 
 .blogs-posts-container {
     padding: 0 50px 40px;
+    text-align: center;
 }
 
 .blogs-posts-container h3 {
@@ -188,4 +189,35 @@ nav .profile-link a {
     padding: 10px 15px;
     font-size: 1.4rem;
     background-color: #51c4d3;
+}
+
+.blogs-posts-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container p {
+    margin-bottom: 35px;
+    font-size: 1.4rem;
+}
+
+.blogs-posts-container .post-container img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #132c33;
+    border-top: 35px solid #51c4d3;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+footer p {
+    color: white;
+    margin-top: 20px;
 }
