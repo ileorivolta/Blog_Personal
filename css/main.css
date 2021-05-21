@@ -258,3 +258,20 @@ footer p {
     padding-top: 20px;
 }
 
+.contact-main-continer {
+    height: 200px;
+    background-color: #d8e3e7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.contact-main-continer img {
+    width: 80px;
+}
+
+.contact-left {
+    display: inline-block;
+}
+
