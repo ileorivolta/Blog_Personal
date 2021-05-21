@@ -304,3 +304,49 @@ footer p {
 .contact-main-container img {
     width: 100px;
 }
+
+.profile-main-container {
+    width: 100%;
+    padding: 70px 40px;
+    background-color: #d8e3e7;
+    margin-bottom: 50px;
+    font-size: 1.6rem;
+}
+
+.profile-main-container img {
+    width: 320PX;
+    margin-right: 30px;
+}
+
+.profile-main-container .profile-container {
+    display: flex;
+}
+
+.profile-main-container .profile-container p {
+    padding-top: 40px;
+}
+
+.profile-main-projects {
+    padding: 0 50px 40px;
+}
+
+.profile-main-projects h3 {
+    border-bottom: 1px solid #d8e3e7;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.projects-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-container {
+    padding: 20px 10px;
+    font-size: 1.4rem;
+}
+
+.projects-container p {
+    padding-top: 15px;
+}
